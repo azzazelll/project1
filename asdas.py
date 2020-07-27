@@ -1,8 +1,6 @@
-a = int ( input ( ) )
+line =str(input())
+new=input()
+correct_line=list  (line)
+correct_line[1]=new
 
-b = []
-for i in range ( a ) :
-    list = str ( input ( "vkarai si imenata\n"))
-    b.append ( list )
-b.count(b)
-print ( b )
+print("".join(correct_line))
